@@ -1,5 +1,15 @@
 # ufo-pursue-open-atlas-docker
 
+Read along for building your own image.
+
+If you just want to use my build:
+
+```bash
+docker run -p 8000:8000 poopknife/ufo-pursue-open-atlas:latest
+```
+
+Then open up your browser and open: http://localhost:8000
+
 ## prerequisites
 
 Put `.env` file in place:
@@ -8,7 +18,7 @@ Put `.env` file in place:
 cp .env.dist .env
 ```
 
-Edit empty variables with your Docker credentials.
+Edit empty variables with your own DockerHub credentials.
 
 ## build dev
 
@@ -34,7 +44,7 @@ Declared in Makefile variable `dockerTag`.
 
 ```bash
 make release
-````
+```
 
 ### test release
 
