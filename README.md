@@ -10,6 +10,8 @@ docker run -p 8000:8000 poopknife/ufo-pursue-open-atlas:latest
 
 Then open up your browser and open: http://localhost:8000
 
+Check my DockerHub here: `https://hub.docker.com/r/poopknife/ufo-pursue-open-atlas`
+
 ## prerequisites
 
 Put `.env` file in place:
