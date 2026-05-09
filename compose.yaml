@@ -1,0 +1,9 @@
+services:
+  ufo-pursue-open-atlas:
+    image: poopknife/ufo-pursue-open-atlas:${TAG:-dev}
+    platform: linux/${PLATFORM:-amd64}
+    container_name: ufo-pursue-open-atlas
+    ports:
+      - 8000:8000
+    pull_policy: always
+    restart: no
