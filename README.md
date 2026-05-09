@@ -38,9 +38,9 @@ PLATFORM=arm64 docker compose up -d
 
 ## release
 
-This will tag dev as latest and as version.
+This will re-tag dev as latest and version and push to your DockerHub registry.
 
-Declared in Makefile variable `dockerTag`.
+Declared in Makefile variable `dockerTag`
 
 ```bash
 make release
